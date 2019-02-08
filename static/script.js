@@ -33,11 +33,11 @@ Highcharts.chart('chart', {
     },
     yAxis: {
       title: {
-        text: 'hPa' 
+        text: 'C' 
       }
     },
     series: [{
-      name: 'Pressure',
+      name: 'Templerature',
       data: (function () {
         let data = [],
             time = (new Date()).getTime(),
